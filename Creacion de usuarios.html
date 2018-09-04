@@ -1,0 +1,137 @@
+﻿
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SAAP</title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic" />
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="formulario2.css" rel="stylesheet" />
+    </head>
+<body>
+<div id="superior">
+    <table>
+        <tr>
+            <td> <img src="../Images/fondo.PNG" width="30" height="60" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="60" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="60" /> </td>
+            <td>
+                <img src="../Images/logo saap auto fondo rojo.png" style="height: 78px; width: 95px" />
+            </td>
+        </tr>
+    </table>
+    
+    <table style="margin: -85px 180px 80px 470px;" >
+        <tr>
+            <td><img src="../Images/SAAP TEXTO.PNG" width="300" height="75"/> </td>
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td><img src="../Images/facebook rojo.PNG" width="40" height="40"/></td>
+            <td><img src="../Images/googlenegro.PNG" width="40" height="40" /></td>
+            <td><img src="../Images/instagram.PNG" width="40" height="40" /> </td>
+            <td><img src="../Images/twitter rojo.PNG" width="40" height="40" /> </td>
+            <td><img src="../Images/pinterest negro.PNG" width="40" height="40" /> </td>
+       </tr>
+    </table>
+    </div>
+   
+    <nav id="colorNav">
+        <ul>
+            <li class="green">
+                <a href="index.html" class="icon-home"></a>
+            </li>
+            <li class="red">
+                <a href="#" class="icon-road"></a>
+                <ul>
+                    <li><a href="Ingreso Vehiculo.html">Ingreso de Vehículos</a></li>
+                </ul>
+            </li>
+            <li class="blue">
+                <a href="#" class="icon-edit"></a>
+                <ul>
+                    <li><a href="Crear convenios.html">Crear convenios</a></li>
+                    <li><a href="Revisar convenios.html">Revisar convenios</a></li>
+                    <li><a href="Facturacion.html">Facturación</a></li>
+                </ul>
+            </li>
+            <li class="yellow">
+                <a href="#" class="icon-user-md"></a>
+                <ul>
+                    <li><a href="Creacion de usuarios.html">Registro de usuarios</a></li>
+                    <li><a href="Modificación de Usuarios.html">Modificación de Usuarios</a></li>
+                    <li><a href="Eliminar usuarios.html">Eliminar usuario</a></li>
+                </ul>
+            </li>
+            <li class="purple">
+                <a href="#" class="icon-calendar"></a>
+                <ul>
+                    <li><a href="Liquidar tiempos.html">Liquidacion de tiempos</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+<div id="contenido">
+ <div class="container">
+<br><br>
+    <form id="signup">
+        <div class="header">
+        <h3>Creación de Usuarios</h3>
+        </div>
+        <div class="inputs">
+        <label>Foto</label>
+        <input type=file size=60 name="file1">    
+             <label>Nombres</label>
+            <input type="email" placeholder="Nombres" autofocus />
+            <label>Apellidos</label>
+             <input type="email" placeholder="Apellidos" autofocus />
+            <label>Tipo de Documento</label>
+            <select id="Select1" name="D1">
+                    <option>Seleccione una</option>
+                    <option>CC</option>
+                    <option>CE</option>
+                    <option>TI</option>
+                </select>
+            <label>Dirección</label>
+             <input type="email" placeholder="Dirección" autofocus />
+            <label>Teléfono fijo </label>
+             <input type="email" placeholder="Teléfono Fijo" autofocus />
+            <label>Teléfono Celular </label>
+             <input type="email" placeholder="Celular" autofocus />
+             <label>Tipo de Vehiculo </label>
+             <select >
+            <option>Seleccione una</option>
+            <option>Automovil</option>
+            <option>Micro Bus</option>
+            <option>Motocicleta</option>
+            <option>Bicicleta</option>
+            <option>Otro</option>
+            </select>
+            <label>Especifique el tipo de vehiculo  </label>
+            <textarea name="textarea" rows="5" cols="30"> </textarea>
+            <label>Modelo</label>
+             <input type="email" placeholder="Modelo" autofocus />
+            <label>Placa </label>
+             <input type="email" placeholder="Placa" autofocus />
+            <label>Marca </label>
+             <input type="email" placeholder="Marca" autofocus />
+             <label>Numero de Convenio </label>
+             <input type="email" placeholder="Numero de Convenio" autofocus />
+            <a id="submit" href="#">Insertar Registro</a>
+        </div>
+    </form>
+    <br><br>
+</div>
+</div>
+    </div>
+    <br />
+    <br />
+</body>
+    
+</html>
